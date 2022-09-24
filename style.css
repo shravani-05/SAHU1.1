@@ -41,18 +41,45 @@ body {
     font-size: 38px;
     /* letter-spacing: 10px; */
   }
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    color: azure;
+  .flex-container {
+    display: flex;
+    /* background-color: dodgerblue; */
+    color: aliceblue;
+    border-radius: 20px;
   }
-  .grid-item {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 50px;
-    font-size: 30px;
-    text-align: center;
-    color: azure;
+  
+  .flex-container > div {
+    /* background-color: #f1f1f1; */
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    width: 50%;
+  }
+  .form .inlineForm{
+    display: inline-flex;
+  }
+  .form {
+    width: 610px;
+  }
+  .head1{
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      text-decoration: solid;
+      /* background-color: ; */
+      width: 500px;
+      padding: 10px;
+      border-radius: 10px;
+      margin-left: 30%;
+  }
+  .subHead{
+      color: red;
+      text-transform: uppercase;
+      font-size: 25px;
+  }
+  .subHead2{
+      font-size: 30px;
+      width: 6200px;
+   
   }
   /* .section_2A{
     color: beige;
